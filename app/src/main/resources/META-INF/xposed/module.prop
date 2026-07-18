@@ -1,0 +1,4 @@
+minApiVersion=102
+targetApiVersion=102
+settings_activity=com.example.uninstallredirect.ConfigActivity
+description=拦截系统桌面，安全中心以及垃圾清理的卸载，重定向至系统默认卸载器（重启作用域应用即可生效）

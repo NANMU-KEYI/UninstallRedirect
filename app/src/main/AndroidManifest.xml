@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:label="Smyprl卸载重定向"
+        android:description="@string/module_description"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:allowBackup="false"
+        tools:targetApi="36">
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="拦截系统桌面，安全中心以及垃圾清理的卸载，重定向至系统默认卸载器（重启作用域应用即可生效）" />
+
+    </application>
+</manifest>
